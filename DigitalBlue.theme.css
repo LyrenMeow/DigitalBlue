@@ -62,10 +62,6 @@
 
 }
 
-/* Keep the emoji size normal when text is in same line */
-#app-mount .markup-2BOw-j > .emoji:not(.jumboable) {
-    height: 30px;
-}
 
 /* Re-coloring */
 
@@ -647,7 +643,6 @@ background: var(--transparency-amount) !important;
 }
 
 /* Minimal friend list */
-.activityPanel-28dQGo,
 .nowPlayingColumn-2sl4cE,
 .actionButton-uPB8Fs {
 	display: none;
@@ -663,26 +658,6 @@ a[href$='/library'],  a[href$='/store']{
 	display: none;
 }
 
-
-
-
-
-/* OPTIONAL */
-
-/* Hide titlebar */
-/*
-.titleBar-AC4pGV {
-	Display: none;
-}
-*/
-
-/* Hide blocked messages */
-/*
-.messageGroupBlocked-3wrQQX {
-	pointer-events: none;
-    display: none;
-}
-*/
 
 
 
