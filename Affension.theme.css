@@ -1,0 +1,191 @@
+/**
+ * @name Affension
+ * @author Lyren
+ * @description Affension's official theme. Its main purpose is to create a clean but fancy look that brings out the Affension outlook!
+ * @website https://affension.dazonia.xyz
+ * @version 13-09-2021-4
+ * @authorId 153123339404050433
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+ ::placeholder, body, button, input, select, textarea {
+   font-family: 'Inconsolata' !important;
+ }
+
+ /* Variables */
+ .theme-dark {
+   --background-tertiary: #1e1e1e;
+   --background-primary: #1e1e1e;
+   --background-secondary: #1e1e1e;
+   --channeltextarea-background: #171717;
+   --background-secondary-alt: #171717;
+   --bg-custom: #1b1b1b;
+   --text-normal: #dddddd;
+   --brand-experiment: #967BB6;
+   --brand-experiment-560: #765F91;
+   --brand-experiment-600: #a081c5;
+   --background-accent: #655973;
+   --bg-light: #242424;
+   --bg-dark: #141414;
+   --header-secondary: white;
+   --header-primary: #efe4ff;
+   --interactive-normal: #827394;
+   --interactive-active: #e3d0ff;
+   --control-brand-foreground: #827394;
+   --scrollbar-auto-track: #191919;
+   --scrollbar-auto-thumb: #282829;
+   --scrollbar-thin-thumb: #333334;
+   --text-positive: #e3d0ff;
+ }
+
+ /* Custom DM logo */
+ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .childWrapper-anI2G9 {
+ 	background: url(https://b.catgirlsare.sexy/sFRveX5khJCj.png) no-repeat center/cover;
+ 	width: 50px;
+ 	height: 50px;
+ 	opacity: 0.8;
+ 	border-radius: 20px;
+ }
+ .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9, .childWrapper-anI2G9 {
+ 	color: transparent;
+ 	background-color: transparent;
+ }
+
+/* Search bar */
+.searchBar-3dMhjb {
+  background-color: var(--background-secondary-alt);
+}
+
+/* Pinned mesages */
+.header-ykumBX, .messageGroupWrapper-o-Zw7G {
+  background-color: var(--bg-custom);
+}
+.messagesPopoutWrap-1MQ1bW {
+  width: 540px;
+}
+
+/* Codeblocks */
+.markup-2BOw-j code {
+  background-color: var(--bg-dark);
+}
+
+/* Upload box */
+.theme-dark .footer-3mqk7D {
+  background-color: var(--bg-dark);
+}
+.theme-dark .uploadModal-2ifh8j {
+  background-color: var(--background-primary);
+}
+
+/* DMs & Server top bar */
+.container-1r6BKw.themed-ANHk51, .container-1taM1r {
+  background-color: var(--bg-light);
+}
+.container-1taM1r {
+  border-right: 1px solid #111111;
+}
+
+/* Channel mention */
+.channelIcon-1MN1lz {
+  height: 1rem;
+  left: 0.07rem;
+  top: 0.01rem;
+}
+
+/* Add friend button */
+.item-3HknzM {
+  background-color: var(--background-primary) !important;
+  color: var(--interactive-normal) !important;
+}
+.item-3HknzM:hover {
+  background-color: var(--background-primary) !important;
+  color: var(--brand-experiment) !important;
+}
+.selected-3s45Ha {
+  background-color: var(--background-floating) !important;
+  color: var(--brand-experiment-600) !important;
+}
+
+/* Start a stage */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--interactive-normal);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--brand-experiment-600);
+}
+
+/* Emoji button */
+.sprite-2iCowe {
+  background-image: url(https://b.catgirlsare.sexy/hWJnXfhz7IkM.png);
+  filter: grayscale(0%) !important;
+  opacity: 0.8;
+}
+
+/* Active now */
+.wrapper-3D2qGf {
+  background-color: var(--bg-light);
+}
+
+/* Server settings */
+.theme-dark .tierBody-3aUxuc {
+  background-color: var(--bg-light);
+}
+
+/* User & settings */
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: var(--background-accent);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: var(--brand-experiment-560);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: var(--brand-experiment-600);
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:disabled {
+  background-color: var(--background-secondary-alt);
+}
+.theme-dark .bottomDivider-1K9Gao, .theme-dark .notDetected-33MY4s {
+  background-color: var(--bg-light);
+}
+.theme-dark .codeRedemptionRedirect-1wVR4b, .pageActions-1SVAnA {
+  background-color: var(--bg-dark);
+}
+.pageIndicator-1gAbyA, .pageButtonNext-V2kUq0, .pageButtonPrev-1Y-47D {
+  border-width: 0px;
+}
+
+/* Delete & pin message */
+.theme-dark .message-2qRu38 {
+  background-color: var(--bg-dark);
+}
+
+/*Changelog */
+.theme-dark .root-1gCeng {
+  background-color: var(--background-primary);
+}
+.theme-dark .footer-2gL1pp {
+  background-color: var(--bg-dark);
+}
+.added-3gEorX:after {
+  background-color: var(--background-accent);
+}
+
+/* Search */
+
+
+/* RTC connection */
+.theme-dark .container-2x5lvQ section {
+  background-color: var(--bg-light);
+}
+.theme-dark .container-2x5lvQ .header-2C89wJ {
+  background-color: var(--background-secondary-alt);
+}
+
+/* Simplify */
+.searchBar-6Kv8R2 {
+  display: none;
+}
+
+/* Transparency/Color fixes */
+.theme-dark .container-1D34oG {background-color: transparent;}
